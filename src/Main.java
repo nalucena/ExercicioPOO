@@ -12,7 +12,7 @@ public class Main {
         Funcionario professor = new Professor("Xiao Zhan", 29, "Professor", "Noturno", "Lógica de Programação", "Exclusiva");
         professor.printarInformacoes();
 
-        Funcionario atendente = new Atendente("Nathalya Lucena", 33, "Atendente", "Integral", "Online");
+        Funcionario atendente = new Atendente("Zhao Lusi", 22, "Atendente", "Integral", "Online");
         atendente.printarInformacoes();
 
     }

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="563f8f12-31c6-4c91-aceb-b2018fb7e757" name="Changes" comment="Atualização codigo de alunos">
-      <change beforePath="$PROJECT_DIR$/src/Bolsista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bolsista.java" afterDir="false" />
-    </list>
+    <list default="true" id="563f8f12-31c6-4c91-aceb-b2018fb7e757" name="Changes" comment="Atualização codigo de alunos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702838174625</updated>
-      <workItem from="1702838175805" duration="11108000" />
+      <workItem from="1702838175805" duration="11413000" />
     </task>
     <task id="LOCAL-00001" summary="Resolução do Exercício de POO - Devas">
       <option name="closed" value="true" />
@@ -109,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702849159185</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Atualização codigo de alunos">
+      <option name="closed" value="true" />
+      <created>1702849586401</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702849586401</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

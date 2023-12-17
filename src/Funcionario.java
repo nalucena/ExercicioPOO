@@ -23,7 +23,7 @@ public abstract class Funcionario extends Pessoa {
 
     @Override
     public void printarInformacoes(){
-        System.out.printf("Dados solicitados com sucesso:" +
+        System.out.printf("Dados solicitados com sucesso: %n%n" +
                 "Funcionário: %s %n" +
                 "Idade: %d %n" +
                 "Cargo: %s %n" +

@@ -18,13 +18,13 @@ public final class Professor extends Funcionario {
 
     @Override
     public void printarInformacoes(){
-        System.out.printf("Dados solicitados com sucesso:" +
-                "Funcinário: %s %n" +
+        System.out.printf("Dados solicitados com sucesso: %n%n" +
+                "Funcionário: %s %n" +
                 "Idade: %d %n" +
                 "Cargo: %s %n" +
                 "Disciplina: %s %n" +
                 "Turno: %s %n" +
-                "Dedicação: %s %n", getNome(), getIdade(), getTipo(), getDisciplina(), getTurno(), getSistemaDeDedicacao());
+                "Dedicação: %s %n%n%n", getNome(), getIdade(), getTipo(), getDisciplina(), getTurno(), getSistemaDeDedicacao());
     }
 
 }

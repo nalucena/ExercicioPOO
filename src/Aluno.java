@@ -46,7 +46,7 @@ public class Aluno extends Pessoa {
 
     @Override
     public void printarInformacoes(){
-        System.out.printf("Dados solicitados com sucesso: %n" +
+        System.out.printf("Dados solicitados com sucesso: %n%n" +
                         "Aluno: %s %n" +
                         "Idade: %d %n" +
                         "Tipo: %s %n" +

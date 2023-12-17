@@ -17,7 +17,7 @@ public final class Atendente extends Funcionario {
 
     @Override
     public void printarInformacoes(){
-        System.out.printf("Dados solicitados com sucesso:" +
+        System.out.printf("Dados solicitados com sucesso: %n%n" +
                           "Funcionário: %s %n" +
                           "Idade: %d %n" +
                           "Cargo: %s %n" +
