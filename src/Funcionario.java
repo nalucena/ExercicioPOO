@@ -1,24 +1,35 @@
-package Funcionarios;
-
-
 public abstract class Funcionario extends Pessoa {
 
-    private String cargo;
+    private String disciplina;
 
-    public Funcionario() {// construtor
+    public Funcionario() {  // construtor
     }
 
-    public String getCargo() {
-        return cargo;
+    public Funcionario(String nome, Integer idade, String tipo, String turno) {
     }
 
-    public void setCargo(String cargo) {
-        this.cargo = cargo;
+    public String getDisciplina() {
+        return disciplina;
     }
 
-    public Funcionario (String nome, Integer idade, String tipo, String turno, String cargo) {
+    public void setDisciplina(String disciplina) {
+        this.disciplina = disciplina;
+    }
+
+    public Funcionario (String nome, Integer idade, String tipo, String turno, String disciplina) {
         super(nome, idade, tipo, turno);
-        this.cargo = cargo;
+        this.disciplina = disciplina;
     }
+
+    @Override
+    public void printarInformacoes(){
+        System.out.printf("Dados solicitados com sucesso:" +
+                "Funcionário: %s %n" +
+                "Idade: %d %n" +
+                "Cargo: %s %n" +
+                "Disciplina: %s %n" +
+                "Turno: %s %n", getNome(), getIdade(), getTipo(), getDisciplina(), getTurno());
+    }
+
 }
 
