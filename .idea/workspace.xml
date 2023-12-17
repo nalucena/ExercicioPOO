@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="563f8f12-31c6-4c91-aceb-b2018fb7e757" name="Changes" comment="Atualização codigo de alunos" />
+    <list default="true" id="563f8f12-31c6-4c91-aceb-b2018fb7e757" name="Changes" comment="Atualização codigo de funcionários">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Atendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Atendente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funcionario.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702838174625</updated>
-      <workItem from="1702838175805" duration="11413000" />
+      <workItem from="1702838175805" duration="13022000" />
     </task>
     <task id="LOCAL-00001" summary="Resolução do Exercício de POO - Devas">
       <option name="closed" value="true" />
@@ -115,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702849586401</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Atualização codigo de funcionários">
+      <option name="closed" value="true" />
+      <created>1702849853931</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702849853932</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +136,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Resolução do Exercício de POO - Devas" />
     <MESSAGE value="Atualização codigo de alunos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualização codigo de alunos" />
+    <MESSAGE value="Atualização codigo de funcionários" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualização codigo de funcionários" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

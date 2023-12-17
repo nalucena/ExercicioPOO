@@ -6,6 +6,7 @@ public abstract class Funcionario extends Pessoa {
     }
 
     public Funcionario(String nome, Integer idade, String tipo, String turno) {
+        super(nome, idade, tipo, turno);
     }
 
     public String getDisciplina() {
@@ -19,8 +20,8 @@ public abstract class Funcionario extends Pessoa {
     public Funcionario (String nome, Integer idade, String tipo, String turno, String disciplina) {
         super(nome, idade, tipo, turno);
         this.disciplina = disciplina;
-    }
 
+    }
     @Override
     public void printarInformacoes(){
         System.out.printf("Dados solicitados com sucesso: %n%n" +

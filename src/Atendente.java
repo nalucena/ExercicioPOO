@@ -1,11 +1,18 @@
 public final class Atendente extends Funcionario {
 
     private String tipoDeAtendimento;
+    private boolean disponivel = true;
 
-    public Atendente (String nome, Integer idade, String tipo, String turno, String tipoDeAtendimento) {
+    public Atendente(String nome, Integer idade, String tipo, String turno, String tipoDeAtendimento) {
         super(nome, idade, tipo, turno);
         this.tipoDeAtendimento = tipoDeAtendimento;
     }
+
+    /*public Atendente (String nome, Integer idade, String tipo, String turno, String tipoDeAtendimento, Boolean disponivel) {
+        super(nome, idade, tipo, turno);
+        this.tipoDeAtendimento = tipoDeAtendimento;
+        this.disponivel = disponivel;
+    }*/
 
     public String getTipoDeAtendimento() {
         return tipoDeAtendimento;
@@ -21,8 +28,8 @@ public final class Atendente extends Funcionario {
                           "Funcionário: %s %n" +
                           "Idade: %d %n" +
                           "Cargo: %s %n" +
-                          "Tipo de Atendimento: %s %n" +
-                          "Turno: %s %n", getNome(), getIdade(), getTipo(), getTipoDeAtendimento(), getTurno());
+                          "Turno: %s %n" +
+                          "O tipo de Atendimento é: %s %n", getNome(), getIdade(), getTipo(), getTurno(), getTipoDeAtendimento());
     }
 
 }
