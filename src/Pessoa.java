@@ -18,6 +18,10 @@ public abstract class Pessoa {
         this.turno = turno;
 
     }
+
+    public Pessoa(String nome, Integer idade, String tipo) {
+    }
+
     public String getNome() {
         return nome;
     }

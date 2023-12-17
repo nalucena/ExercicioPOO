@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public final class Bolsista extends Aluno {
 
-      public Bolsista(String nome, Integer idade, String tipo, String turno, String matricula, String curso, String[] disciplinasMatriculadas) {
+    public Bolsista(String nome, Integer idade, String tipo, String turno, String matricula, String curso, String[] disciplinasMatriculadas) {
         super(nome, idade, tipo, matricula, curso, Arrays.toString(disciplinasMatriculadas));
 
     }
