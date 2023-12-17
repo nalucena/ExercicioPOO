@@ -21,6 +21,6 @@ public final class Pagante extends Aluno {
     @Override
     public void printarInformacoes(){
         super.printarInformacoes();
-        System.out.printf("O aluno %s está matriculado no seguinte conjunto de disciplinas: %s , com mensalidade no valor de R$%.2f %n%n", getNome(), Arrays.toString(getDisciplinasMatriculadas()), getValorMensalidade());
+        System.out.printf("O(A) aluno(a) %s está matriculado(a) no seguinte conjunto de disciplinas: %s , com mensalidade no valor de R$%.2f %n%n", getNome(), Arrays.toString(getDisciplinasMatriculadas()), getValorMensalidade());
     }
 }

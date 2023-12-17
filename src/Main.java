@@ -5,7 +5,7 @@ public class Main {
         pagante.printarInformacoes();
 
         Aluno bolsista = new Bolsista("Nathalya Lucena", 33, "Bolsista",
-                "Noturno", "A0001", "Ciências da Computação",
+                "Noturno",  "Ciências da Computação","A0001",
                 new String[]{"Lógica de Programação I", "POO I"});
         bolsista.printarInformacoes();
 
